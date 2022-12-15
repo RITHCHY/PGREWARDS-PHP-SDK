@@ -1,0 +1,27 @@
+{
+    "name": "mds/pg-rewards-sdk",
+    "description": "A PHP wrapper for PGRewards's API",
+    "type": "library",
+    "license": "MIT",
+    "scripts": {
+        "demo": "php sample/index.php"
+    },
+    "keywords": [
+        "pg-rewards",
+        "sdk"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mds\\PGRewards\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Louis Midson Lajeanty",
+            "email": "louismidsonlajeanty@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5"
+    }
+}
